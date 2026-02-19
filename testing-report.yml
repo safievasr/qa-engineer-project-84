@@ -1,28 +1,36 @@
 ---
 - summary: |
     Успешная проверка добавления товара в корзину
-  status: fail
+  status: pass
 
 - summary: |
     Успешная проверка удаление товара из корзины
-  status: fail
+  status: pass
 
 - summary: |
     Успешная проверка удаление всего товара из корзины
-  status: fail
+  status: pass
 
 - summary: |
     Успешная проверка товара в поле "Поиск"
-  status: fail
+  status: pass
   
 - summary: |
     Смена языка интерфейса
-  status: fail
+  status: pass
   
 - summary: |
     Успешная фильтрация товара по категориям
-  status: fail
+  status: pass
   
 - summary: |
     Успешная фильтрация товара по производителю
+  status: pass
+
+- summary: |
+    Успешное оформление заказа
+  status: fail
+
+- summary: |
+    Закрытие модального окна после оформления заказа
   status: fail
