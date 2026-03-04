@@ -81,9 +81,12 @@ test-cases:
     status: fail
 
   - summary: |
-     
-    status: fail
+     Успешное добавление нескольких одинаковых товаров в корзину
+    status: pass
 
+  - summary: |
+     Успешное добавление нескольких разных товаров в корзину
+    status: pass
 
 bugreports:
   - summary: |
