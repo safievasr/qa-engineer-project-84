@@ -53,7 +53,7 @@ test-cases:
     status: pass
   
   - summary: |
-     Фильтрация товаров по отрицательной цене
+     Невозможность фильтрации по отрицательной стоимости
     status: fail
   
   - summary: |
@@ -79,6 +79,11 @@ test-cases:
   - summary: |
      Успешная проверка адаптивного сайта на мобильный устройствах 
     status: fail
+
+  - summary: |
+     
+    status: fail
+
 
 bugreports:
   - summary: |
