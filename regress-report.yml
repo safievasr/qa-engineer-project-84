@@ -14,7 +14,7 @@ test-cases:
   
   - summary: |
      Успешная проверка товара в поле "Поиск"
-    status: pass
+    status: fail
   
   - summary: |
      Смена языка интерфейса на Русский язык
@@ -22,7 +22,7 @@ test-cases:
   
   - summary: |
      Смена языка интерфейса на Английский язык
-    status: pass
+    status: fail
   
   - summary: |
      Успешная фильтрация товара по категориям
